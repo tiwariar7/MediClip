@@ -1,0 +1,104 @@
+{
+    "train": {
+      "split": "train",
+      "accuracy": 0.8601,
+      "classification_report": {
+        "medical": {
+          "precision": 0.8,
+          "recall": 0.95,
+          "f1-score": 0.87,
+          "support": 6827
+        },
+        "non-medical": {
+          "precision": 0.94,
+          "recall": 0.77,
+          "f1-score": 0.85,
+          "support": 7251
+        },
+        "accuracy": 0.8601,
+        "macro avg": {
+          "precision": 0.87,
+          "recall": 0.86,
+          "f1-score": 0.86,
+          "support": 14078
+        },
+        "weighted avg": {
+          "precision": 0.87,
+          "recall": 0.86,
+          "f1-score": 0.86,
+          "support": 14078
+        }
+      },
+      "total_images": 14078,
+      "medical_images": 6827,
+      "non_medical_images": 7251
+    },
+    "val": {
+      "split": "val",
+      "accuracy": 0.9577,
+      "classification_report": {
+        "medical": {
+          "precision": 0.92,
+          "recall": 1.0,
+          "f1-score": 0.96,
+          "support": 1342
+        },
+        "non-medical": {
+          "precision": 1.0,
+          "recall": 0.92,
+          "f1-score": 0.96,
+          "support": 1427
+        },
+        "accuracy": 0.9577,
+        "macro avg": {
+          "precision": 0.96,
+          "recall": 0.96,
+          "f1-score": 0.96,
+          "support": 2769
+        },
+        "weighted avg": {
+          "precision": 0.96,
+          "recall": 0.96,
+          "f1-score": 0.96,
+          "support": 2769
+        }
+      },
+      "total_images": 2769,
+      "medical_images": 1342,
+      "non_medical_images": 1427
+    },
+    "test": {
+      "split": "test",
+      "accuracy": 0.9616,
+      "classification_report": {
+        "medical": {
+          "precision": 0.93,
+          "recall": 1.0,
+          "f1-score": 0.96,
+          "support": 1363
+        },
+        "non-medical": {
+          "precision": 1.0,
+          "recall": 0.93,
+          "f1-score": 0.96,
+          "support": 1426
+        },
+        "accuracy": 0.9616,
+        "macro avg": {
+          "precision": 0.96,
+          "recall": 0.96,
+          "f1-score": 0.96,
+          "support": 2789
+        },
+        "weighted avg": {
+          "precision": 0.96,
+          "recall": 0.96,
+          "f1-score": 0.96,
+          "support": 2789
+        }
+      },
+      "total_images": 2789,
+      "medical_images": 1363,
+      "non_medical_images": 1426
+    }
+  }
