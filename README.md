@@ -12,7 +12,7 @@
   [MediCLIP - Medical Image Classification Dataset (Kaggle)](https://www.kaggle.com/datasets/tiwariar273/mediclip-medical-image-classification-dataset)
 
 * **Trained Model (CLIP ViT-B/32 - Saved Weights and Configuration):**
-  [Google Drive - MediCLIP Saved Model](https://drive.google.com/drive/folders/1p4p85WOZ2bZ2piBiORkAaloR7LD0hR4t?usp=sharing)
+  [Google Drive - MediCLIP Saved Model](https://www.kaggle.com/models/tiwariar273/mediclip-medical-image-classification-using-clip/)
 
 ---
 
